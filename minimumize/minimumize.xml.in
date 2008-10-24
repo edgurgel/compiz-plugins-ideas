@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<compiz>
+  <plugin name="minimumize" useBcop="true">
+    <_short>Minimumize</_short>
+	<_long>Minimumizes windows (resize them to half of current size).</_long>
+	<category>Window Management</category>
+    <display>
+		<option name="minimumize_left" type="bool">
+         <_short>Maximumize to left.</_short>
+	 <_long>Expands the window on the left direction.</_long>
+         <default>true</default>
+      </option>
+			<option name="minimumize_right" type="bool">
+         <_short>Maximumize to right.</_short>
+	 <_long>Expands the window on the right direction.</_long>
+         <default>true</default>
+      </option>
+			<option name="minimumize_up" type="bool">
+         <_short>Maximumize to up.</_short>
+	 <_long>Expands the window on the up direction.</_long>
+         <default>true</default>
+      </option>
+			<option name="minimumize_down" type="bool">
+         <_short>Maximumize to down.</_short>
+	 <_long>Expands the window on the down direction.</_long>
+         <default>true</default>
+      </option>
+
+      <group>
+        <_short>Bindings</_short>
+        <option name="trigger_key" type="key">
+          <_short>Trigger minimumize</_short>
+          <_long>Trigger a resize of the window currently focused so it fits as
+	  much of the available screenspae as possible.</_long>
+          <default>&lt;Super&gt;&lt;Control&gt;KP_Begin</default>
+        </option>
+				<option name="trigger_left" type="key">
+          <_short>Trigger left minimumize</_short>
+          <_long>Trigger a resize of the window currently focused so it fits as
+	  much of the available screenspae as possible to the left.</_long>
+          <default>&lt;Super&gt;&lt;Control&gt;KP_Left</default>
+        </option>
+				<option name="trigger_right" type="key">
+          <_short>Trigger right minimumize</_short>
+          <_long>Trigger a resize of the window currently focused so it fits as
+	  much of the available screenspae as possible to the right.</_long>
+          <default>&lt;Super&gt;&lt;Control&gt;KP_Right</default>
+        </option>
+				<option name="trigger_up" type="key">
+          <_short>Trigger up minimumize</_short>
+          <_long>Trigger a resize of the window currently focused so it fits as
+	  much of the available screenspae as possible to up.</_long>
+          <default>&lt;Super&gt;&lt;Control&gt;KP_Up</default>
+        </option>
+				<option name="trigger_down" type="key">
+          <_short>Trigger down minimumize</_short>
+          <_long>Trigger a resize of the window currently focused so it fits as
+	  much of the available screenspae as possible to down.</_long>
+          <default>&lt;Super&gt;&lt;Control&gt;KP_Down</default>
+        </option>
+				<option name="trigger_horizontally" type="key">
+          <_short>Trigger minimumize horizontally</_short>
+          <_long>Trigger a resize of the window currently focused so it fits as
+	  much of the available screenspae as possible horizontally.</_long>
+          <default>&lt;Super&gt;&lt;Control&gt;KP_Subtract</default>
+        </option>
+				<option name="trigger_vertically" type="key">
+          <_short>Trigger minimumize vertically</_short>
+          <_long>Trigger a resize of the window currently focused so it fits as
+	  much of the available screenspae as possible vertically.</_long>
+          <default>&lt;Super&gt;&lt;Control&gt;KP_Divide</default>
+        </option>
+				<option name="trigger_up_left" type="key">
+          <_short>Trigger minimumize upper left corner</_short>
+          <_long>Trigger a resize of the window currently focused so it fits as
+	  much of the available screenspae as possible in the upper left direction.</_long>
+          <default>&lt;Super&gt;&lt;Control&gt;KP_Home</default>
+        </option>
+				<option name="trigger_up_right" type="key">
+          <_short>Trigger minimumize upper right corner</_short>
+          <_long>Trigger a resize of the window currently focused so it fits as
+	  much of the available screenspae as possible in the upper right direction.</_long>
+          <default>&lt;Super&gt;&lt;Control&gt;KP_Page_Up</default>
+        </option>
+				<option name="trigger_down_left" type="key">
+          <_short>Trigger minimumize bottom left corner</_short>
+          <_long>Trigger a resize of the window currently focused so it fits as
+	  much of the available screenspae as possible in the bottom left direction.</_long>
+          <default>&lt;Super&gt;&lt;Control&gt;KP_End</default>
+        </option>
+				<option name="trigger_down_right" type="key">
+          <_short>Trigger minimumize bottom right corner</_short>
+          <_long>Trigger a resize of the window currently focused so it fits as
+	  much of the available screenspae as possible in the bottom right direction.</_long>
+          <default>&lt;Super&gt;&lt;Control&gt;KP_Page_Down</default>
+        </option>
+      </group>
+    </display>
+  </plugin>
+</compiz>
